@@ -14,3 +14,5 @@ def fibo(n):
         a = b
         b = c
     return series
+# Fonksiyonu çağır ve sonucu yazdır
+print(fibo(10))
