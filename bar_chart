@@ -6,7 +6,7 @@ def create_bar_chart(data, labels):
     # Number of bars
     num_bars = len(data)
     # This list is the point on the y-axis where each
-    # Bar is cen it will be [1, 2, 3...]
+    # Bar is centered it will be [1, 2, 3...]
     positions = range(1, num_bars + 1)
     plt.barh(positions, data, align='center')
     #Set the label of each bar
