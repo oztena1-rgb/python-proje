@@ -17,9 +17,9 @@ def calculate_mode (numbers):
             modes.append(num[0])
     return modes
 
-if __name__ == "__main__":
-     scores = [5, 5, 5, 4, 4, 4, 9, 1,3]
-     modes = calculate_mode(scores)
-     print('The mode(s) of the list of numbers are:')
+if __name__ =="__main__":
+    scores = [5, 5, 5, 4, 4, 4, 9, 1,3]
+    modes = calculate_mode(scores)
+    print('The mode(s) of the list of numbers are:')
     for mode in modes:
-        print (mode)
+        print(mode)
