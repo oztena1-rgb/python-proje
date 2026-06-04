@@ -1,0 +1,9 @@
+ad = input("Adınızı girin: ")
+
+
+
+
+
+
+
+
