@@ -8,5 +8,3 @@ while True:
         break
     else:
         print(f"I'd love to go to {city.title()}!")
-        
-        
